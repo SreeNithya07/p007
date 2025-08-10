@@ -1,8 +1,9 @@
+
 import React, { Component } from 'react';
 import './App.css';
 class App extends Component {
   render() {
-    const BASEURL = import.meta.ev.BASE_URL;  
+    const BASEURL = import.meta.env.BASE_URL;
     return (
       <>
         <header>
